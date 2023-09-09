@@ -399,7 +399,7 @@ if __name__ == '__main__':
     # move_model_to_production_form_runname(experiment_id, run_name="LDA-20230908-200035", model_name= "modelo-iris")
     # promote_model_to_stage("modelo-iris", "Production")
 
-    #run_experiment(experiment_id, n_splits=args.nsplits)
+    run_experiment(experiment_id, n_splits=args.nsplits)
 
 
     # list_experiment_models(experiment_id)
